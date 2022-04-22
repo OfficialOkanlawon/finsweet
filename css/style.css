@@ -352,3 +352,7 @@
     font-size: 48px;
     margin-bottom: 20px;
 }
+
+.sect4-list ul li a:hover {
+    color: #FF6433;
+}
