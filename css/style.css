@@ -724,10 +724,14 @@
         margin-right: 0;
     }
 
-    .arrows {
+    /* .arrows {
+        display: none;
+    } */
+
+    .lines {
         display: none;
     }
-
+    
     .qa {
         width: 100%;
     }
@@ -781,5 +785,30 @@
     .cta-list h2 {
         font-size: 20px;
         margin-top: 10px;
+    }
+
+    .sect7-text h3 {
+        font-size: 40px;
+    }
+
+    .head1 h2 {
+        font-size: 50px;
+    }
+
+    .right-sect img {
+        height: 70vh;
+        margin-top: 20px
+    }
+
+    .arrows .arr1 {
+        width: 15%;
+    }
+
+    .arrows .arr2 {
+        width: 0;
+    }
+
+    .arrows {
+        margin-right: 0;
     }
 }
