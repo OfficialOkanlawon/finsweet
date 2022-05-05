@@ -696,9 +696,9 @@
         flex-direction: column;
     }
 
-    .sect5 {
+    /* .sect5 {
         display: none;
-    }
+    } */
 
     .sect6-list1 ul {
         flex-direction: column;
@@ -733,7 +733,7 @@
     }
     
     .sign {
-        margin-left: 250px;
+        margin-left: 240px;
     }
 
     .minus img {
@@ -754,5 +754,32 @@
 
     .foot .flex {
         flex-direction: column;
+    }
+
+    .orange a {
+        bottom: 10px;
+        font-size: 6px;
+    }
+
+    .contact {
+        left: 0;
+        padding: 5px 7px 5px 7px;
+        border-radius: 0;
+    }
+
+    .orange-text {
+        padding-top: 0;
+        padding-left: 2px;
+        font-size: 10px;
+    }
+
+    .cta-list p {
+        font-size: 8px;
+        margin-bottom: 15px;
+    }
+
+    .cta-list h2 {
+        font-size: 20px;
+        margin-top: 10px;
     }
 }
