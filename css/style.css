@@ -604,6 +604,123 @@
     color: #939191;
 }
 
+@media (max-width: 769px) {
+    .container {
+        width: 90%;
+    }
+
+    #hero-section {
+        margin-bottom: 30px;
+    }
+
+    .left-section h1 {
+        font-size: 45px;
+    }
+
+    #hero-section .left-section, #hero-section .right-sect {
+        margin-top: 50px;
+    }
+
+    .right-sect img {
+        height: 70vh;
+    }
+
+    .second-sect .second-left-sect {
+        width: 50%;
+    }
+
+    .second-sect .second-right-sect {
+        width: 40%;
+    }
+
+    .head1 h2, .second-sect .second-right-sect h3, .sect3-left h2 {
+        font-size: 35px;
+    }
+
+    .sect3-body {
+        margin-top: 30px;
+    }
+
+    .sect3-body .sect3-left {
+        width: 50%;
+        margin-top: 50px;
+
+    }
+
+    .lis .list-image {
+        width: 20%;
+    }
+
+    .list .list-text #pp {
+        font-size: 20px;
+    }
+
+    .orange-text {
+        padding-top: 10px;
+        padding-left: 10px;
+        font-size: 19px;
+    }
+
+    .contact {
+        left: 10px;
+        padding: 7px;
+        bottom: 20px;
+    }
+
+    .sect6 {
+        padding: 30px 0;
+    }
+
+    .sect6-list1 ul {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sect6-list2 ul {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .arrows .arr2, .arrows .arr1 {
+        width: 6%;
+    }
+
+    .arrows {
+        margin-right: 0;
+    }
+
+    /* .testimony .left-test {
+        width: 0;
+    } */
+
+    .testimony .left-test, .testimony .right-test {
+        width: auto;
+    }
+
+    .arrows .lines {
+        width: 15%;
+    } 
+
+    .arrows .lines img {
+        width: 80%;
+    }
+
+    .qa {
+        width: 60%;
+    }
+
+    .minus img {
+        width:  32%;
+    }
+
+    .foot .links ul {
+        margin-right: 0;
+        padding-left: 30px;
+    }
+}
+
 @media (max-width: 426px) {
     .head .flex {
         flex-direction: column;
@@ -696,10 +813,6 @@
         flex-direction: column;
     }
 
-    /* .sect5 {
-        display: none;
-    } */
-
     .sect6-list1 ul {
         flex-direction: column;
     }
@@ -737,7 +850,7 @@
     }
     
     .sign {
-        margin-left: 240px;
+        margin-left: 280px;
     }
 
     .minus img {
