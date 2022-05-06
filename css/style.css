@@ -925,3 +925,40 @@
         margin-right: 0;
     }
 }
+
+@media (max-width:376px) {
+    .sign {
+        margin-left: 240px;
+    }
+
+    .minus img {
+        width: 70%;
+    }
+}
+
+@media (max-width:321px) {
+   
+    .qa .sign {
+        margin-left: 195px;
+    }
+
+    .minus img {
+        width: 80%;
+    }
+
+    .orange-text {
+        font-size: 7.5px;
+    }
+
+    .head1 h2 {
+        font-size: 40px;
+    }
+
+    .left-section h1 {
+        font-size: 40px;
+    }
+
+    .sect7-text h3 {
+        font-size: 30px;
+    }
+}
